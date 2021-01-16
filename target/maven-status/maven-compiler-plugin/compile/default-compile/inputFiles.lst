@@ -1,4 +1,14 @@
 /opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/model/User.java
 /opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/DesafioApplication.java
-/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/repository/UserRepository.java
 /opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/controller/UserController.java
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/util/PBKDF2Encoder.java
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/config/WebSecurityConfig.java
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/security/SecurityContextRepository.java
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/config/CORSFilter.java
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/util/JWTUtil.java
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/model/AuthResponse.java
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/controller/AuthenticationController.java
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/repository/UserRepository.java
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/model/AuthRequest.java
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/security/AuthenticationManager.java
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/config/RequestLogAspect.java

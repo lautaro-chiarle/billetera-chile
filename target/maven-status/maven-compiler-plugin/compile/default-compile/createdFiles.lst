@@ -1,4 +1,14 @@
+cl/com/billetera/desafio/config/WebSecurityConfig.class
+cl/com/billetera/desafio/config/RequestLogAspect.class
+cl/com/billetera/desafio/util/PBKDF2Encoder.class
+cl/com/billetera/desafio/model/AuthRequest.class
+cl/com/billetera/desafio/controller/AuthenticationController.class
+cl/com/billetera/desafio/util/JWTUtil.class
+cl/com/billetera/desafio/security/SecurityContextRepository.class
+cl/com/billetera/desafio/config/CORSFilter.class
 cl/com/billetera/desafio/model/User.class
 cl/com/billetera/desafio/DesafioApplication.class
 cl/com/billetera/desafio/repository/UserRepository.class
+cl/com/billetera/desafio/security/AuthenticationManager.class
 cl/com/billetera/desafio/controller/UserController.class
+cl/com/billetera/desafio/model/AuthResponse.class
