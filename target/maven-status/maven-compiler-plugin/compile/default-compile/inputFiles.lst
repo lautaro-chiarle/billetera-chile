@@ -1,0 +1,4 @@
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/model/User.java
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/DesafioApplication.java
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/repository/UserRepository.java
+/opt/tenpo/billetera-chile/src/main/java/cl/com/billetera/desafio/controller/UserController.java

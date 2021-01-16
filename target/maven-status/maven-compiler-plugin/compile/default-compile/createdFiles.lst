@@ -1,0 +1,4 @@
+cl/com/billetera/desafio/model/User.class
+cl/com/billetera/desafio/DesafioApplication.class
+cl/com/billetera/desafio/repository/UserRepository.class
+cl/com/billetera/desafio/controller/UserController.class
