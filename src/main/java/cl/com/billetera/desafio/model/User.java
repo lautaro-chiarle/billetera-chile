@@ -1,18 +1,16 @@
 package cl.com.billetera.desafio.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import org.springframework.data.annotation.Id;
 
-@Entity
-@Table(name="_user")
+import org.springframework.data.relational.core.mapping.Table;
+
+@Table("_user")
 public class User {
 
     @Id
-    @GeneratedValue
     private Long id;
     private String name;
+    private String password;
     private String email;
 
 // set and get… 
@@ -40,6 +38,14 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }    
+
+    public String getPassword() {
+        return this.password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
 
     @Override
