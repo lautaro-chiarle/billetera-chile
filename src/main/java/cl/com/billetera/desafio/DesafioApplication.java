@@ -1,6 +1,7 @@
 package cl.com.billetera.desafio;
 
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -11,11 +12,12 @@ import org.springframework.data.r2dbc.connectionfactory.init.ResourceDatabasePop
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 
 import io.r2dbc.spi.ConnectionFactory;
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.swagger.v3.oas.annotations.info.Info;
 
-//exclude: SecurityAutoConfiguration.class 
 
 @SpringBootApplication()
-
+@OpenAPIDefinition(info = @Info(title = "APIs", version = "1.0", description = "Documentation APIs v1.0"))
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class DesafioApplication {
 
