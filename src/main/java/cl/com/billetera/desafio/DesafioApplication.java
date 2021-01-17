@@ -17,7 +17,7 @@ import io.swagger.v3.oas.annotations.info.Info;
 
 
 @SpringBootApplication()
-@OpenAPIDefinition(info = @Info(title = "APIs", version = "1.0", description = "Documentation APIs v1.0"))
+
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class DesafioApplication {
 

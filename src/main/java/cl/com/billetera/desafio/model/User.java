@@ -11,6 +11,7 @@ import org.springframework.data.relational.core.mapping.Table;
 public class User {
 
     @Id
+    @JsonProperty(access = Access.READ_ONLY)
     private Long id;
     private String name;
     @JsonProperty(access = Access.WRITE_ONLY)

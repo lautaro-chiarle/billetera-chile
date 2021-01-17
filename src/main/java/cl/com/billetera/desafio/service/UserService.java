@@ -29,13 +29,11 @@ public class UserService {
     }
 
     public Mono<User> findById(Long id) {
-        //TODO manejar error
         return userRepository.findById(id);
-        //.orElseThrow(() -> new ResponseStatusException(
-        //        HttpStatus.NOT_FOUND));
     }    
 
     public Mono<User> save(User user) {
+        user.setPassword(passwordEncoder.encode(user.getPassword()));
         return userRepository.save(user);
     }	    
 
