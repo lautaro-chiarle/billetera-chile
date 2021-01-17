@@ -51,7 +51,7 @@ public class WebSecurityConfig {
 			.securityContextRepository(securityContextRepository)
 			.authorizeExchange()
 			.pathMatchers(HttpMethod.OPTIONS).permitAll()
-			.pathMatchers("/login").permitAll()		
+			.pathMatchers("/signin","/signup").permitAll()		
 			.pathMatchers(HttpMethod.GET,
 				"/v3/**", 
 				"​/swagger-resources/**",

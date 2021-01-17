@@ -2,18 +2,27 @@ package cl.com.billetera.desafio.model;
 
 
 public class AuthResponse {
-    private String token;
+    private String response;
     
-    public AuthResponse(String token) {
-        this.token = token;
+    public AuthResponse(String response) {
+        this.response = response;
     }
 
-    public String getToken() {
-        return this.token;
+
+    public String getResponse() {
+        return this.response;
     }
 
-    public void setToken(String token) {
-        this.token = token;
+    public void setResponse(String response) {
+        this.response = response;
+    }
+
+
+    @Override
+    public String toString() {
+        return "{" +
+            " response='" + getResponse() + "'" +
+            "}";
     }
 
 

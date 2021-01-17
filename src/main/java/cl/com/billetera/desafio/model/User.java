@@ -1,7 +1,10 @@
 package cl.com.billetera.desafio.model;
 
-import org.springframework.data.annotation.Id;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonProperty.Access;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
 @Table("_user")
@@ -10,8 +13,11 @@ public class User {
     @Id
     private Long id;
     private String name;
+    @JsonProperty(access = Access.WRITE_ONLY)
     private String password;
     private String email;
+    @JsonIgnore    
+    private Boolean isActive = false;
 
 // set and get… 
 
@@ -39,12 +45,25 @@ public class User {
         this.email = email;
     }    
 
+    @JsonIgnore
     public String getPassword() {
         return this.password;
     }
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public Boolean isIsActive() {
+        return this.isActive;
+    }
+
+    public Boolean getIsActive() {
+        return this.isActive;
+    }
+
+    public void setIsActive(Boolean isActive) {
+        this.isActive = isActive;
     }
 
 
