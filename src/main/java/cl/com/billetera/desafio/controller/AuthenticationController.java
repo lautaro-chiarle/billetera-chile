@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import cl.com.billetera.desafio.model.AuthRequest;
-import cl.com.billetera.desafio.model.AuthResponse;
+import cl.com.billetera.desafio.dto.AuthRequest;
+import cl.com.billetera.desafio.dto.AuthResponse;
 import cl.com.billetera.desafio.model.User;
 import cl.com.billetera.desafio.service.UserService;
 import cl.com.billetera.desafio.util.JWTUtil;

@@ -1,4 +1,4 @@
-package cl.com.billetera.desafio.model;
+package cl.com.billetera.desafio.dto;
 
 public class  AuthRequest {
 	private String username;
