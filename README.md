@@ -45,8 +45,8 @@
    ##### **User: juan@mail.com - Password: ju4n123!**
    ##### **User: pedro@mail.com - Password: p3dr0123!**
 
-- Una vez ejecutado el Endpoint, copiar el token devuelto a introducierlo en la pantalla de Autenticación
+- Una vez ejecutado el Endpoint, copiar el token devuelto e introducirlo en el formulario de Autorización
 
 ![Authorize](https://mattfrear.files.wordpress.com/2018/07/authbutton.jpg)
 
-- A partir de allí se pueden ejecutar el resto de Endpoints que están securizados
+- A partir de allí se puede ejecutar el resto de Endpoints que están securizados
