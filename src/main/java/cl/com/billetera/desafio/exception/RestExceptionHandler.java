@@ -22,11 +22,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class RestExceptionHandler {
 
-    /**
-     * Método para gestionar los errores de validación en los request.
-     * @param ex
-     * @return Map<String, String>
-     */
+
     @ExceptionHandler()
     public ResponseEntity<Map<String, String>> handleValidationExceptions(
             MethodArgumentNotValidException ex) {
