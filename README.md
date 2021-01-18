@@ -31,8 +31,13 @@
 ### Posicionarse en la carpeta
 ```$ cd billetera-chile```
 
-### Ejecutar Docker Compose
+### Ejecutar Docker Compose con la imagen pública
+```$ docker-compose up ```
+
+
+### Ejecutar Docker Compose construyendo la imagen desde el código
 ```$ docker-compose up --build```
+
 
 
 
